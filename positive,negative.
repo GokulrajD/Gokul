@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    double number;
+
+    printf("Enter a number: ");
+    scanf("%lf", &number);
+  if (number < 0.0)
+        printf("Entered a negative number.");
+     else if ( number > 0.0)
+        printf("Enter a positive number.");
+        else
+        printf("Enter 0.");
+    return 0;
+}
